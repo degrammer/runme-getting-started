@@ -1,0 +1,23 @@
+{
+  "name": "runme-getting-started",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/degrammer/runme-getting-started.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/degrammer/runme-getting-started/issues"
+  },
+  "homepage": "https://github.com/degrammer/runme-getting-started#readme",
+  "dependencies": {
+    "zx": "^7.1.1"
+  }
+}
