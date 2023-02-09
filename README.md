@@ -9,7 +9,7 @@ For newcomers, it can quickly become a very frustrating experience.
 
 We believe that even if you have an excellent README file, by encouraging your users to view it through the lens of RUNME, the experience will be a game changer.
 
-**Let’s dig why Runme is such an awesome experience:**
+**Let’s dig into why Runme is such an incredible experience:**
 
 For newcomers, it’s the most user-friendly experience you will ever offer, and they won’t get confused about opening terminals and running commands. They will never wonder ever again, did I run that command before? RUNME will tell them already about that.
 
