@@ -101,6 +101,8 @@ The entire configuration schema as an example
     echo hello world
     ```
 
+Take a look at more [examples](https://github.com/stateful/vscode-runme/tree/main/examples) available inside the VS Code extension repo for a reference how to apply these code block attributes in different use-cases.
+
 ## Using the RUNME CLI
 
 If you want to use RUNME outside VS Code, you can install the CLI as standalone application.
@@ -162,11 +164,12 @@ Ensure you have Node.js installed by running:
 ```sh { name=node-version closeTerminalOnSuccess=false }
 node --version
 ```
+
 Ensure you are running at least Node version >= 16.0.0
 
 #### Installing Node.js
 
-##### MacOS 
+##### MacOS
 
 Install using brew
 
@@ -183,7 +186,6 @@ npm i
 ```
 
 Now we have all of our project dependencies installed, it's time to try some zx features.
-
 
 ### Get last git logs
 
