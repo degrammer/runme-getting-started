@@ -21,6 +21,12 @@ Have you ever wondered if there is a better way of doing READMEs and executing c
 
 ![installing runme](img/run-command.gif)
 
+**Make edits and author markdown docs inside of a notebook UX**
+
+Add markdown and code blocks easily
+
+![markdown editing](img/md-edit.gif)
+
 ## How to Install the Extension?
 
 Install the extension from within VS Code. Bring up the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of VS Code, and search for runme.
