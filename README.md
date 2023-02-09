@@ -157,9 +157,9 @@ runme ls --filename SUPPORT.md --chdir ./.github
 Let’s learn how to leverage **RUNME** powerful features to provide a fantastic **README** experience.
 We will use [zx](https://github.com/google/zx), a powerful tool for writing complex scripts.
 
-We will be using Node.js for running the following examples.
+Node.js is required for running the following examples.
 
-Ensure you have Node.js installed by running:
+Check if Node.js is already installed by running
 
 ```sh { name=node-version closeTerminalOnSuccess=false }
 node --version
