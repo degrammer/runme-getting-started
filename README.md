@@ -27,6 +27,12 @@ Add markdown and code blocks easily
 
 ![markdown editing](img/md-edit.gif)
 
+**Run README commands from a CLI**
+
+Make your README commands executable from a CLI
+
+![markdown editing](img/runme-cli.gif)
+
 ## How to Install the Extension?
 
 Install the extension from within VS Code. Bring up the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of VS Code, and search for runme.
