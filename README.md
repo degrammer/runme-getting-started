@@ -1,5 +1,7 @@
 # Getting Started with Runme
 
+[![](img/runmebutton.svg)](vscode://stateful.runme?command=setup&repository=git@github.com:degrammer/runme-getting-started.git&fileToOpen=README.md)
+
 ## Introduction
 
 A README file is like a compass that guides you in the right direction to reach the port safely. It generally helps developers to understand the HOW.
@@ -107,6 +109,12 @@ If you feel more comfortable editing the markdown file directly, you can do it b
     echo hello world
     ```
 
+Try it out the previous command
+
+```sh { interactive=false name=echo-hello-world }
+echo hello world
+```
+
 The entire configuration schema as an example
 
     ```sh { interactive=true name=example mimeType=text/plain closeTerminalOnSuccess=false background=false }
@@ -117,7 +125,7 @@ Take a look at more [examples](https://github.com/stateful/vscode-runme/tree/mai
 
 ## Using the RUNME CLI
 
-If you want to use RUNME outside VS Code, you can install the CLI as standalone application.
+If you want to use RUNME outside VS Code, you can install the CLI as standalone application. [Read more about runme CLI](https://github.com/stateful/runme)
 
 ### MacOs
 
@@ -149,6 +157,32 @@ Download a binary from runme CLI [release page](img/https://github.com/stateful/
 
 Binaries are offered for Windows, MacOS, and Linux
 
+### Available commands
+
+### Help
+
+```sh { interactive=false }
+$ runme help
+```
+
+### List
+
+```sh
+$ runme list
+```
+
+### Print
+
+```sh { interactive=false }
+$ runme print echo-hello-world
+```
+
+### Run selected command, Example: Update brew
+
+```sh
+$ runme run brew-update
+```
+
 #### Check the CLI is working
 
 Once the CLI is installed, ensure you have a markdown file named **README.md** in the working directory you are running the CLI and run the following command:
@@ -165,6 +199,7 @@ runme ls --filename SUPPORT.md --chdir ./.github
 ```
 
 ### RUNME usage
+NOTE: This usage example should be at a separate project since it depends on Node.js to work, it shouldn't be part of the extension getting started guide.
 
 Let’s learn how to leverage **RUNME** powerful features to provide a fantastic **README** experience.
 We will use [zx](https://github.com/google/zx), a powerful tool for writing complex scripts.
