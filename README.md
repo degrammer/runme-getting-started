@@ -1,6 +1,6 @@
 # Getting Started with Runme
 
-[![](img/runmebutton.svg)](vscode://stateful.runme?command=setup&repository=git@github.com:degrammer/runme-getting-started.git&fileToOpen=README.md)
+[![](img/runmebutton.svg)](https://www.bencho.dev/runme-getting-started)
 
 ## Introduction
 
