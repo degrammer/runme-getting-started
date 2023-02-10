@@ -1,6 +1,6 @@
 # Getting Started with Runme
 
-[![](img/runmebutton.svg)](https://www.bencho.dev/api/runme?repository=git%40github.com%3Adegrammer%2Frunme-getting-started.git)
+[![](https://badgen.net/badge/Open%20with/Runme/5B3ADF?icon=https://runme.dev/img/logo.svg)](https://www.bencho.dev/api/runme?repository=git%40github.com%3Adegrammer%2Frunme-getting-started.git)
 
 ## Introduction
 
